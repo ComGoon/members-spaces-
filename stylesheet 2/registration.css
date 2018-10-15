@@ -1,0 +1,146 @@
+body {
+    background: whitesmoke;
+    font-family: 'Arial', 'Franklin Gothic Medium', ' Narrow', Arial, sans-serif!;
+    font-family: sans-serif !important;
+}
+
+#header {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: whitesmoke;
+}
+
+#header #header-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+}
+
+.header-text a {
+    display: flow-root;
+    color: black;
+    text-decoration: none;
+}
+
+#header-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+}
+
+.btn-header {
+    height: 30px;
+    border-radius: 3px;
+}
+
+#incri {
+    color: rgb(69, 182, 69);
+}
+
+main {
+    display: flex;
+}
+
+
+/*form style*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+h2 {
+    padding-top: 10px;
+}
+
+.input-container {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.input-field:focus {
+    border: 2px solid dodgerblue;
+}
+
+
+/* Set a style for the submit button */
+
+.btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+#checkbox {
+    margin-left: 0;
+}
+
+.input-container p {
+    padding-top: 50px;
+}
+
+#Connectez-vous {
+    display: flex;
+    justify-content: center;
+}
+
+#Connectez-vous p a {
+    color: rgb(69, 182, 69);
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    color: white;
+    height: 50px;
+}
+
+#list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.li-img {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
